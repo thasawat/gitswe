@@ -9,6 +9,7 @@ public class Hello {
         
         
         System.out.println("TESTTT ");
+        System.out.println("COMMIT");
     }
 
 
