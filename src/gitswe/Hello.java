@@ -1,31 +1,18 @@
 package gitswe;
 import java.util.Scanner;
 public class Hello {
-	
+	static Scanner t = new Scanner(System.in);
 	public static void main(String[] args) {
-		int x;
-		System.out.print("Enter number to check odd or even : ");
+		System.out.print("Enter radius : ");
+		double radius = t.nextDouble();
         Scanner input = new Scanner(System.in);
-        x=input.nextInt();
-        
-        
-        if(calc(x)==true) {
-        System.out.println(x+" is even number ");
-        }else {
-        System.out.println(x+" is odd number ");	
-        }
-        	
-       
+        System.out.print( "Area is : ");
+        System.out.println(getArea(radius));
     }
-	private static boolean calc(int i) {
-		// TODO Auto-generated method stub
+	
+	public static double getArea(double radius) {
+        return Math.PI * radius * radius;
+    }
+
 		
-		if (i%2==0) {
-			return true;
-		}else {
-			return false;
-		}
-	}
-	
-	
 }
