@@ -13,8 +13,8 @@ public class Grade {
 					if (score >= 80) {
 			           grade = "Grade:A";
 			        } else if (score >= 75) {
-			           grade = "Grade:B";
-			        } else if (score >= 75) {
+			           grade = "Grade:B+";
+			        } else if (score >= 70) {
 			            grade = "Grade:B";
 			        } else if (score >= 65) {
 			           grade = "Grade:C+";
