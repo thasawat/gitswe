@@ -8,6 +8,7 @@ public class Hello {
         Scanner input = new Scanner(System.in);
         x=input.nextInt();
         
+        
         if(calc(x)==true) {
         System.out.println(x+" is even number ");
         }else {
