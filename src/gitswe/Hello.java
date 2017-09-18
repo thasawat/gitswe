@@ -5,8 +5,8 @@ public class Hello {
 	public static void main(String[] args) {
 		int x;
 		System.out.print("Enter number to check odd or even : ");
-        Scanner in = new Scanner(System.in);
-        x=in.nextInt();
+        Scanner input = new Scanner(System.in);
+        x=input.nextInt();
         
         if(calc(x)==true) {
         System.out.println(x+" is even number ");
