@@ -16,12 +16,9 @@ public class inSert {
 		name = sc.nextLine();
 		salary = sc.nextDouble();
 		sale=sc.nextDouble();
+		calCulate send= new calCulate(id,name,salary,sale);
+		send.output();
 	
-		
-		System.out.println(id);
-		System.out.println(name);	
-		System.out.println(salary);
-		System.out.println(sale);
 		
 	}
 }
