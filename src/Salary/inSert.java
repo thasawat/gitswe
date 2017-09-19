@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class inSert {
 
-	public inSert(){
+	 public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String id;
 		String name;
