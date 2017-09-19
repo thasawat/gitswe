@@ -1,10 +1,23 @@
 package Salary;
 
+import java.util.Scanner;
+
 public class inSert {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		String id;
+		String name;
+		Double salary;
+		
+		Scanner sc = new Scanner(System.in);
+		id = sc.nextLine();
+		name = sc.nextLine();
+		salary = sc.nextDouble();
+		
+		System.out.println(id);
+		System.out.println(name);	
+		System.out.println(salary);
 	}
 
 }
