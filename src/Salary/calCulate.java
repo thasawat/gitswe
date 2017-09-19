@@ -6,5 +6,6 @@ public class calCulate {
 		// TODO Auto-generated method stub
 
 	}
+	
 
 }
